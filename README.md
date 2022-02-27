@@ -2,23 +2,26 @@
 
 An npm library for creating passwords by extracting the first letter of each word in a memorable phrase. It also replaces some of those letters with numbers. 
 
-The letter i or I is replaced with the number 1 in the password,
+The letter "i" or "I" is replaced with the number 1 in the password,
+
 The letter s or S is replaced with the number 9 in the password,
+
 The letter e or E replaced with the number 8 in the password,
+
 The letter a or A replaced with the number 5 in the password.
 
 # Installation
 
 ```sh
-npm i password-maker
+$ npm i password-maker
 ```
 
 # Usage
 
 ```js
 const makePassword = require('password-maker')
-const password = makePassword("The only impossible journey is the one you never begin") // creates To1j1toynb
 
+const password = makePassword("The only impossible journey is the one you never begin") // creates To1j1toynb
 ```
 # LICENSE
 
