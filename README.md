@@ -21,8 +21,7 @@ $ npm i phraseword
 ```js
 const createPassword = require("phraseword");
 
-const password = createPassword(
-  "The only impossible journey is the one you never begin"); // creates To1j1toynb
+const password = createPassword("The only impossible journey is the one you never begin"); // creates To1j1toynb
 ```
 
 # LICENSE
