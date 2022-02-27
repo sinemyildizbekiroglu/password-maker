@@ -1,5 +1,5 @@
 {
-  "name": "password-maker",
+  "name": "phraseword",
   "version": "1.0.0",
   "description": "An npm library for creating passwords by extracting the first letter of each word in a memorable phrase",
   "main": "index.js",
@@ -8,17 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sinemyildizbekiroglu/password-maker.git"
+    "url": "git+https://github.com/sinemyildizbekiroglu/phraseword.git"
   },
   "keywords": [
-    "password"
+    "password",
+    "phrase"
   ],
   "author": "Sinem Yildiz Bekiroglu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sinemyildizbekiroglu/password-maker/issues"
+    "url": "https://github.com/sinemyildizbekiroglu/phraseword/issues"
   },
-  "homepage": "https://github.com/sinemyildizbekiroglu/password-maker#readme",
+  "homepage": "https://github.com/sinemyildizbekiroglu/phraseword#readme",
   "dependencies": {
     "jest": "^27.5.1"
   }

@@ -1,6 +1,6 @@
-# password-maker
+# phraseword
 
-A library for creating passwords by extracting the first letter of each word in a memorable phrase. It also replaces some of those letters with numbers. 
+A library for creating passwords by extracting the first letter of each word in a memorable phrase. It also replaces some of those letters with numbers.
 
 The letter i or I is replaced with the number 1.
 
@@ -13,16 +13,19 @@ The letter a or A replaced with the number 5.
 # Installation
 
 ```sh
-$ npm i password-maker
+$ npm i phraseword
 ```
 
 # Usage
 
 ```js
-const makePassword = require('password-maker')
+const createPassword = require("phraseword");
 
-const password = makePassword("The only impossible journey is the one you never begin") // creates To1j1toynb
+const password = createPassword(
+  "The only impossible journey is the one you never begin"
+); // creates To1j1toynb
 ```
+
 # LICENSE
 
 MIT License
