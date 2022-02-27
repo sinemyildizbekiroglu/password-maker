@@ -1,14 +1,14 @@
 # password-maker
 
-An npm library for creating passwords by extracting the first letter of each word in a memorable phrase. It also replaces some of those letters with numbers. 
+A library for creating passwords by extracting the first letter of each word in a memorable phrase. It also replaces some of those letters with numbers. 
 
-The letter "i" or "I" is replaced with the number 1 in the password,
+The letter i or I is replaced with the number 1.
 
-The letter s or S is replaced with the number 9 in the password,
+The letter s or S is replaced with the number 9.
 
-The letter e or E replaced with the number 8 in the password,
+The letter e or E replaced with the number 8.
 
-The letter a or A replaced with the number 5 in the password.
+The letter a or A replaced with the number 5.
 
 # Installation
 
