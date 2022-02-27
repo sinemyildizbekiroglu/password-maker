@@ -1,4 +1,4 @@
-function makePassword(phrase) {
+function createPassword(phrase) {
   let splitWords = phrase.split(" ")
   let firstLetters = splitWords.map((letter)=>{
       return letter[0]   
@@ -23,4 +23,4 @@ function makePassword(phrase) {
    return password = newpassword.join("")
 }
 
-module.exports = makePassword
+module.exports = createPassword
